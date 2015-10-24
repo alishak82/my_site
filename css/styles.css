@@ -1,0 +1,39 @@
+body {
+	background-color: lightgrey;
+	margin: 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #000;
+	height: 60px;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.header nav {
+	color: #fff;
+	float: right;
+}
+
+.header li {
+	display: inline-block;
+	margin: 0 0 0 40px;
+	font-size: 16px;
+}
+
+.header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header img {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+	margin-top: -10px;
+}
