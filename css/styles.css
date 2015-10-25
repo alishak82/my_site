@@ -95,3 +95,31 @@ body {
 	height: 175px;
 	width: 220px;
 }
+
+.footer-nav {
+	float: left;
+	list-style: none;
+}
+
+.footer-nav li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.social-links {
+	float: right;
+	list-style: none;
+}
+
+.social-links li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 160%;
+}
+
+#contact .container p {
+	text-align: center;
+}
+/*.social-links img {
+	color: #fff;
+}*/
