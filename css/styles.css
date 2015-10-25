@@ -3,9 +3,9 @@ body {
 	margin: 0;
 }
 
-section {
-	height: 500px;
-}
+/*section {
+	height: 750px;
+}*/
 
 .container {
 	width: 960px;
@@ -61,14 +61,14 @@ section {
 }
 
 #about {
-	padding-top: 40px;
-	/*padding-bottom: 40px;*/
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #coding {
 	background-color: #fff;
 	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 #coding p {
@@ -77,10 +77,6 @@ section {
 	line-height: 125%;
 	text-align: center;
 }
-
-/*.projects {
-	width: 800px;
-}*/
 
 .projects li {
 	list-style: none;
@@ -96,6 +92,4 @@ section {
 .projects img {
 	height: 175px;
 	width: 220px;
-	/*margin: 1.1%;*/
-	/*padding: 1%;*/
 }

@@ -5,7 +5,12 @@
 	<title>Alisha's Website</title>
 	<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/modernizr.min.js"></script>
+	
 </head>
 <body>
 	<header class="header">
@@ -61,5 +66,127 @@
 			</div>
 		</div>
 	</section>
+
+	<section id="travels">
+		<div class="description">
+			<p><strong>"The world is a book, and those who don't travel read only one page."</strong></p>
+			<p><small>Here are some pics from our family trip to Tanzania, where my dad was born.</small></p>
+		</div>
+		<section id="photostack-1" class="photostack photostack-start">
+			<div>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/masai.jpg" alt="Visit to the Masai Village"></a><figcaption>
+						<h2 class="photostack-title">Masai Village</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/buffalo.jpg" alt="Roaming Buffalo"></a>
+					<figcaption>
+						<h2 class="photostack-title">Buffalo</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/hippo.jpg" alt="Hippos in Water"></a>
+					<figcaption>
+						<h2 class="photostack-title">Hungry Hungry Hippos</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/zebra.jpg" alt="Zebra"></a>
+					<figcaption>
+						<h2 class="photostack-title">Zebra</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/giraffe.jpg" alt="Giraffes Drinking from a Pond"></a>
+					<figcaption>
+						<h2 class="photostack-title">Giraffes Drinking From a Pond</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/elephant.jpg" alt="Elephants outside of the Van"></a>
+					<figcaption>
+						<h2 class="photostack-title">Elephant Selfie</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/baboon.jpg" alt="Baboon with Baby"/></a>
+					<figcaption>
+						<h2 class="photostack-title">Baboon with Baby</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/lion.jpg" alt="Lion and Lioness"/></a>
+					<figcaption>
+						<h2 class="photostack-title">Lion and Lioness</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/cows.jpg" alt="Cows on the Beach"/></a>
+					<figcaption>
+						<h2 class="photostack-title">Cows on The Beach</h2>
+					</figcaption>
+				</figure>
+				<figure>
+					<a href="" class="photostack-img"><img src="images/travel/african_sunset.jpg" alt="African Sunset"/></a>
+					<figcaption>
+						<h2 class="photostack-title">African Sunset</h2>
+					</figcaption>
+				</figure>
+				<figure data-dummy>
+					<a href="" class="photostack-img"><img src="images/travel/looking.jpg" alt="Looking out into the Seregeti"/></a>
+					<figcaption>
+						<h2 class="photostack-title">What Will We See Next?</h2>
+					</figcaption>
+				</figure>
+				<figure data-dummy>
+					<a href="" class="photostack-img"><img src="images/travel/cooling_off.jpg" alt="Zebra rolling around in dirt"/></a>
+					<figcaption>
+						<h2 class="photostack-title">They Roll Around On The Dirt to Cool Off</h2>
+					</figcaption>
+				</figure>
+				<figure data-dummy>
+					<a href="" class="photostack-img"><img src="images/travel/spices.jpg" alt="Zanzibar Spice Market"/></a>
+					<figcaption>
+						<h2 class="photostack-title">Zanzibar Spice Market</h2>
+					</figcaption>
+				</figure>
+				<figure data-dummy>
+					<a href="" class="photostack-img"><img src="images/travel/coconut water.jpg" alt="Drinking straight from the coconut"/></a>
+					<figcaption>
+						<h2 class="photostack-title">Yum! Fresh Coconut Water</h2>
+					</figcaption>
+				</figure>
+				<figure data-dummy>
+					<a href="" class="photostack-img"><img src="images/travel/flight.jpg" alt="Plane in Serengeti"/></a>
+					<figcaption>
+						<h2 class="photostack-title">We Took This Plane From the Serengeti to Zanzibar</h2>
+					</figcaption>
+				</figure>
+				<figure data-dummy>
+					<a href="" class="photostack-img"><img src="images/travel/dar.jpg" alt="Family in Dar es Salaam"/></a>
+					<figcaption>
+						<h2 class="photostack-title">Beautiful Day in Dar Es Salaam</h2>
+					</figcaption>
+				</figure>
+
+			</div>
+		</section>
+
+	</section>
+
+	<script src="js/classie.js"></script>
+		<script src="js/photostack.js"></script>
+		<script>
+			// [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+			
+			new Photostack( document.getElementById( 'photostack-1' ), {
+				callback : function( item ) {
+					//console.log(item)
+				}
+			} );
+	
+		</script>
+
 </body>
 </html>
