@@ -17,11 +17,13 @@ body {
 	height: 60px;
 	width: 100%;
 	padding: 20px 0;
+	position: fixed;
 }
 
 .header nav {
 	color: #fff;
 	float: right;
+
 }
 
 .header li {
@@ -67,7 +69,7 @@ body {
 
 #coding {
 	background-color: #fff;
-	padding-top: 40px;
+	padding-top: 70px;
 	padding-bottom: 40px;
 }
 
