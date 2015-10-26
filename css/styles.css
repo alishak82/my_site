@@ -18,6 +18,7 @@ body {
 	width: 100%;
 	padding: 20px 0;
 	position: fixed;
+	z-index: 100;
 }
 
 .header nav {
@@ -84,6 +85,7 @@ body {
 	list-style: none;
 	display: inline-block;
 	margin: 1% 11%;
+	position: relative;
 
 }
 
@@ -94,6 +96,25 @@ body {
 .projects img {
 	height: 175px;
 	width: 220px;
+}
+
+.projects li .descript {
+	background-color: rgba(255, 255, 255, .85);
+	position: absolute;
+	height: 180px;
+	width: 220px;
+	bottom: 0px;
+	z-index: 10;
+	font-size: .5em;
+	padding: 10px;
+}
+
+.projects li .descript p.descript-text {
+	font-size: 10px;
+}
+
+.projects li .descript p {
+	font-size: 10px;
 }
 
 .footer-nav {
