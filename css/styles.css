@@ -12,8 +12,12 @@ body {
 	margin: 0 auto;
 }
 
+/* -------------------------------------- */
+/* HEADER / NAVIGATION */
+/* -------------------------------------- */
+
 .header {
-	background-color: #000;
+	background-color: #555;
 	height: 60px;
 	width: 100%;
 	padding: 20px 0;
@@ -45,6 +49,10 @@ body {
 	margin-top: -10px;
 }
 
+/* -------------------------------------- */
+/* ABOUT */
+/* -------------------------------------- */
+
 #skee-photo {
 	float: right;
 }
@@ -68,10 +76,14 @@ body {
 	padding-bottom: 50px;
 }
 
+/* -------------------------------------- */
+/* PROJECTS */
+/* -------------------------------------- */
+
 #coding {
 	background-color: #fff;
 	padding-top: 70px;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 }
 
 #coding p {
@@ -79,6 +91,7 @@ body {
 	font-size: 18px;
 	line-height: 125%;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 .projects li {
@@ -88,10 +101,6 @@ body {
 	position: relative;
 
 }
-
-/*.projects a {
-	text-decoration: none;
-}*/
 
 .projects img {
 	height: 175px;
@@ -105,16 +114,36 @@ body {
 	width: 220px;
 	bottom: 0px;
 	z-index: 10;
-	font-size: .5em;
+	font-size: .7em;
 	padding: 10px;
 }
 
-.projects li .descript p.descript-text {
-	font-size: 10px;
+.projects li .descript a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+/* -------------------------------------- */
+/* CAKES */
+/* -------------------------------------- */
+.fancybox img {
+	height: 135px;
+	width: 160px;
+	border-radius: 10%;
+	border: 1.5px solid #fff;
+	margin: 1% 3%;
 }
 
-.projects li .descript p {
-	font-size: 10px;
+
+
+
+
+/* -------------------------------------- */
+/* FOOTER */
+/* -------------------------------------- */
+
+footer {
+	background-color: #555;
+	padding-bottom: 15px;
 }
 
 .footer-nav {
