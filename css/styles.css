@@ -157,7 +157,7 @@ body {
 
 .about-cakes p:last-child {
 	font-size: 13px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .cake-images {
@@ -166,9 +166,9 @@ body {
 
 .fancybox img {
 	/*height: 135px;*/
-	height: 94.5px;
+	height: 95px;
 	/*width: 160px;*/
-	width: 112px;
+	width: 115px;
 	border-radius: 10%;
 	border: 1.5px solid #fff;
 	flex: 1;
@@ -213,9 +213,31 @@ footer {
 	font-size: 160%;
 }
 
-/*#contact .container p {
-	text-align: center;
-}*/
+.ion-ios-email:hover {
+	color: #e0e0e0;
+}
+
+.ion-social-github:hover {
+	color: #000;
+}
+
+.ion-social-linkedin:hover {
+	color: #007bb5;
+}
+
+.ion-social-instagram:hover {
+	/*color: #125688;*/
+	/*color: #C9A497;*/
+	color: #a36f34;
+}
+
+.ion-document:hover {
+	color: #e0e0e0;
+}
+
+.ion-android-settings:hover {
+	color: #bb0000;
+}
 
 .copyright {
 	clear: both;
